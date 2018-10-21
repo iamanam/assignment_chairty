@@ -54,13 +54,15 @@ i.glyphicon.glyphicon-search {
 }
 .img-box {
   width: 100%;
-  height: auto;
+  height: 180px;
 }
 .box-text {
   margin-bottom: 2em;
 }
 .box-text h3 {
   color: grey;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .services .icon i {
   display: table-cell;
@@ -137,7 +139,7 @@ i.glyphicon.glyphicon-search {
   }
 }
 .gallery,
-.book-now,
+.Donate-now,
 .resort-info,
 .testimony {
   margin-bottom: 6em;

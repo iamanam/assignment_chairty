@@ -9,22 +9,22 @@
     <meta name="description" content="echo friendly holiday in USA">
     <meta name="author" content="iamanam">
 
-    <title>Gallery -Green World</title>
+    <title>Donate -Green World</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/aos.css" rel="stylesheet">
-
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
     <!-- Icons  -->
     <link rel="stylesheet" href="./css/icomoon.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-    <!--light gallery-->
-    <link rel="stylesheet" href="./css/lightgallery.min.css" />
     <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet"> />
+    <link href="css/full-slider.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/donate.css" rel="stylesheet">
+
+
 
 </head>
 
@@ -84,68 +84,55 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Hero image -->
+    <!-- Full Page Image Background Carousel Header -->
     <header id="hero-img">
         <div class="hero-img-back" style="background-image: url(./img/hero-img.jpg);"></div>
     </header>
 
     <!-- Page Content -->
-    <div class="container">
-        <section class="gallery">
-            <div class="row">
-                <div class="container">
-                    <div class="my-gallery">
-                        <ul id="lightgallery" class="list-unstyled row">
-                            <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1.jpg 800"
-                                data-src="img/1-1600.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-                                <a href="">
-                                    <img class="img-responsive" src="img/thumb-1.jpg">
-                                </a>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/2-375.jpg 375, img/2-480.jpg 480, img/2.jpg 800"
-                                data-src="img/2-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                                <a href="">
-                                    <img class="img-responsive" src="img/thumb-2.jpg">
-                                </a>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/13-375.jpg 375, img/13-480.jpg 480, img/13.jpg 800"
-                                data-src="img/13-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                                <a href="">
-                                    <img class="img-responsive" src="img/thumb-13.jpg">
-                                </a>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800"
-                                data-src="img/4-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                                <a href="">
-                                    <img class="img-responsive" src="img/thumb-4.jpg">
-                                </a>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1.jpg 800"
-                                data-src="img/1-1600.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-                                <a href="">
-                                    <img class="img-responsive" src="./img/b_1.jpg">
-                                </a>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/2-375.jpg 375, img/2-480.jpg 480, img/2.jpg 800"
-                                data-src="img/2-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                                <a href="">
-                                    <img class="img-responsive" src="./img/b_2.jpg">
-                                </a>
-                            </li>
-                            <li class=" col-xs-6 col-sm-4 col-md-3 " data-responsive="img/13-375.jpg 375, img/13-480.jpg
-                                        480, img/13.jpg 800 "
-                                data-src="img/13-1600.jpg " data-sub-html="<h4>Bowness Bay</h4>
-                                    <p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm
-                                        extremely happy I was passing the right place at the right time....</p>">
-                                <a href="">
-                                    <img class="img-responsive" src="./img/b_3.jpg">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+    <div class="donation-container">
+
+        <div class="donation-box">
+            <div class="title">Donation Information</div>
+
+            <div class="fields">
+                <input type="text" id="firstName" placeholder="First Name"> </input>
+                <input type="text" id="lastName" placeholder="Last Name"> </input>
+                <input type="text" id="email" placeholder="Email"> </input>
             </div>
-        </section>
+
+            <div class="amount">
+                <div class="button">$30</div>
+                <div class="button">$50</div>
+                <div class="button">$100</div>
+                <div class="button">$<input type="text" class="set-amount" placeholder=""> </input></div>
+            </div>
+
+            <div class="switch">
+                <input type="radio" class="switch-input" name="view" value="One-Time" id="one-time" checked="">
+                <label for="one-time" class="switch-label switch-label-off">One-Time</label>
+                <input type="radio" class="switch-input" name="view" value="Monthly" id="monthly">
+                <label for="monthly" class="switch-label switch-label-on">Monthly</label>
+                <span class="switch-selection"></span>
+            </div>
+
+            <div class="checkboxes">
+                <input type="checkbox" id="receipt" class="checkbox" />
+                <label for="receipt">Email Me A Receipt</label>
+                <br />
+                <input type="checkbox" id="anon" class="checkbox" />
+                <label for="anon">Give Anonymously</label>
+                <br />
+                <input type="checkbox" id="list" class="checkbox" />
+                <label for="list">Add Me To Email List</label>
+            </div>
+
+            <div class="confirm">
+
+            </div>
+
+            <div class="donate-button"><i class="fa fa-credit-card"></i> Donate Now</div>
+        </div>
 
     </div>
     <!-- /.container -->
@@ -207,7 +194,7 @@
                     <h4>Recents Blog Post</h4>
                     <ul class="Resort-footer-links">
                         <li>
-                            <a href="#">The Ultimate Packing List For Female Travelers</a>
+                            <a href="#">Project Update – Montonnso Sacred Forest Conservation Project</a>
                         </li>
                         <li>
                             <a href="#">Students of Wycombe Abbey International School Walk 9km to raise £250 for ITF!</a>
@@ -250,17 +237,8 @@
     </footer>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="./js/aos.js"></script>
-    <script src="./js/lightgallery.min.js"></script>
-    <script src="./js/script.js"></script>
-    <script type="text/JavaScript">
-        // light gallery
-            $(document).ready(function() {
-               $("#lightgallery").lightGallery();
-            });
-    </script>
+    <script src="https://raw.githubusercontent.com/jerryluk/jquery.autogrow/master/jquery.autogrow-min.js"></script>
+    <script src="./js/donate.js"></script>
 
 </body>
 
